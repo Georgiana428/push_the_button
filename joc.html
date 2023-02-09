@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 45%;
+      margin: 10px;
+	  solid #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <button id="button1">Button 1</button>
+  <button id="button2">Button 2</button>
+  <button id="button3">Button 3</button>
+  
+  <script>
+    document.getElementById("button1").addEventListener("click", function() {
+      alert("Buna dimineata");
+    });
+    document.getElementById("button2").addEventListener("click", function() {
+      alert("Buna ziua");
+    });
+    document.getElementById("button3").addEventListener("click", function() {
+      alert("Buna seara");
+    });
+  </script>
+</body>
+</html>
